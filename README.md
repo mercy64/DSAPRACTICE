@@ -1,1 +1,1 @@
-Sample Fronted application.
+Sample Fronted application Javascript.
