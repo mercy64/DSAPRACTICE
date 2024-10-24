@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: blue;
+            font-size: 40px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: black;
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            border: 1px solid transparent;
+            border-radius: 10px;
+            margin: 10px auto;
+            width: 350px;
+            padding: 15px;
+            background-color: white;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+            font-size: 24px;
+        }
+
+        li:hover {
+            background-color: lightyellow;
+            border-color: transparent;
+            border-radius: 10px;
+            max-width: 500cm;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            border: 1px solid blue;
+            padding: 15px 20px;
+            font-size: 16px;
+            border-radius: 30px;
+            margin: 20px auto;
+            cursor: pointer;
+            transition: 200ms ease-in-out;
+            box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+            border: 1px solid blue;
+
+        }
+
+        button:hover {
+            background-color: white;
+            color: blue;
+            border-color: blue;
+        }
+
+        .coder {
+            display: block;
+            font-family: monospace;
+            font-size: 20px;
+            color: gray;
+            margin-top: 20px;
+            opacity: 4.7;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🌤 <br />
+        Currently 21° in Tokyo</h1>
+
+    <h2> 13° /
+        <strong>23°</strong>
+    </h2>
+
+    <ul>
+        <li>
+            <strong>🌧Tomorrow</strong>
+            <p>10° / <b>22°</b></p>
+        </li>
+        <li>
+
+            <strong>🌥Saturday</strong>
+            <p>15° / <b>17°</b></p>
+        </li>
+        <li>
+            <strong>☀️Sunday</strong>
+            <p>25° / <b>28°</b></p>
+        </li>
+    </ul>
+
+    <button>Change City</button>
+
+    <p class="coder">Coded by Matt Delac</p>
+</body>
+
+</html>
